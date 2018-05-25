@@ -42,8 +42,9 @@ document.querySelector(".download").onclick = () => {
             console.log(item[key]);
             output += `
               <div class="col-sm-6 col-md-4 col-lg-4 col-xl-2 mb-4">
-                <a href="${item[key]}">
+                <a href="${item[key]}" target="_blank">
                     <img src="${item[key]}" alt="" class="img-fluid">
+                 </a>
               </div>
             `;
         }
